@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 public class ModGamerules {
 
     public static final GameRules.Key<GameRules.IntegerValue> ATTRIBUTE_LEVELS =
-            GameRules.register("HardmodeLevel", GameRules.Category.SPAWNING, GameRules.IntegerValue.create(2));
+            GameRules.register("HardmodeLevel", GameRules.Category.SPAWNING, GameRules.IntegerValue.create(1));
 
 
 
