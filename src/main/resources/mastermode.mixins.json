@@ -1,0 +1,7 @@
+{
+  "package": "com.asleepinspace.mastermode.mixin",
+  "required": false,
+  "mixins": [
+    "CreeperMixin"
+  ]
+}
