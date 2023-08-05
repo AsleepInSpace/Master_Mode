@@ -9,7 +9,4 @@ public class ModGamerules {
 
     public static final GameRules.Key<GameRules.IntegerValue> ATTRIBUTE_LEVELS =
             GameRules.register("HardmodeLevel", GameRules.Category.SPAWNING, GameRules.IntegerValue.create(1));
-
-
-
 }
