@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 @Mixin(Creeper.class)
 public interface CreeperMixin {
     @Accessor("explosionRadius")
-    public void setExplosionRadius(int explosionRadius);
+     void setExplosionRadius(int explosionRadius);
 
 
 
