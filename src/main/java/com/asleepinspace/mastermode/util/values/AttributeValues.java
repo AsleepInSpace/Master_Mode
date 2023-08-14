@@ -6,8 +6,6 @@ import java.util.UUID;
 
 public class AttributeValues {
 
-
-
     public static final UUID HEALTH_BONUS_UUID = UUID.fromString("5a71e2bb-d285-4d03-81fb-3a87c7acccaa");
     public static final AttributeModifier HEALTH_BONUS = new AttributeModifier(HEALTH_BONUS_UUID,
             "Health_bonus", 1.25, AttributeModifier.Operation.MULTIPLY_TOTAL );
@@ -23,7 +21,9 @@ public class AttributeValues {
     public static final UUID DAMAGE_BONUS_UUID = UUID.fromString("2e66b648-7821-4699-a5f5-de5465a483b2");
     public static final AttributeModifier DAMAGE_BONUS = new AttributeModifier(DAMAGE_BONUS_UUID,
             "damage boost", 1.5, AttributeModifier.Operation.MULTIPLY_TOTAL);
+
     //below is the second set
+
 
     public static final UUID HEALTH_BONUS_UUID_2 = UUID.fromString("50d6c1b4-ab95-477b-9cec-b52d361526fd");
     public static final AttributeModifier HEALTH_BONUS_2 = new AttributeModifier(HEALTH_BONUS_UUID_2,
@@ -40,6 +40,25 @@ public class AttributeValues {
     public static final UUID DAMAGE_BONUS_UUID_2 = UUID.fromString("d15b632f-20cb-4aa1-bbd7-5c4174671cea");
     public static final AttributeModifier DAMAGE_BONUS_2 = new AttributeModifier(DAMAGE_BONUS_UUID_2,
             "damage boost", 2, AttributeModifier.Operation.MULTIPLY_TOTAL);
+
+
+
+    public static final UUID HEALTH_BONUS_UUID_3 = UUID.fromString("d838c063-ae51-415e-b186-3bf854e782ab");
+    public static final AttributeModifier HEALTH_BONUS_3 = new AttributeModifier(HEALTH_BONUS_UUID_3,
+            "Health_bonus", 2.5, AttributeModifier.Operation.MULTIPLY_TOTAL );
+
+    public static final UUID SPEED_BONUS_UUID_3 = UUID.fromString("006eb5bb-dc37-4aaa-a1a4-841b35015f69");
+    public static final AttributeModifier SPEED_BONUS_3 = new AttributeModifier(SPEED_BONUS_UUID_3,
+            "Speed_bonus", 0.7, AttributeModifier.Operation.MULTIPLY_TOTAL );
+
+    public static final UUID KNOCKBACK_BONUS_UUID_3 = UUID.fromString("9dd1e23b-6f24-457f-9b6a-1382c088c51e");
+    public static final AttributeModifier KNOCKBACK_BONUS_3 = new AttributeModifier(KNOCKBACK_BONUS_UUID_3,
+            "Knockback_bonus", 2.5, AttributeModifier.Operation.MULTIPLY_TOTAL );
+
+    public static final UUID DAMAGE_BONUS_UUID_3 = UUID.fromString("86ad67f7-3b36-458e-bf80-effabbc2ca55");
+    public static final AttributeModifier DAMAGE_BONUS_3 = new AttributeModifier(DAMAGE_BONUS_UUID_3,
+            "damage boost", 2.5, AttributeModifier.Operation.MULTIPLY_TOTAL);
+
 
 
 
