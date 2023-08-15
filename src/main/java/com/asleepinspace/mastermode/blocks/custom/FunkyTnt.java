@@ -15,7 +15,7 @@ public class FunkyTnt extends TntBlock {
 
     @Override
     public void onCaughtFire(BlockState state, Level world, BlockPos pos, @Nullable Direction face, @Nullable LivingEntity igniter) {
-        explode(world,pos);
+
         super.onCaughtFire(state, world, pos, face, igniter);
     }
 }

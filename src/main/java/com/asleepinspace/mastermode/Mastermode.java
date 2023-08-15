@@ -21,7 +21,7 @@ public class Mastermode {
     public static final String MOD_ID = "mastermode";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    //test
+
     public Mastermode() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
